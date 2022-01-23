@@ -1,0 +1,56 @@
+[
+    {
+        "First Name": "Surbhi",
+        "Middle Name": "",
+        "Last Name": "Sharma",
+        "Email": "surbhi3052@gmail.com",
+        "Phone": "+546738888",
+        "Role": "Full Stack Engineer",
+        "Address": "Ludhiana,Punjab"
+    },
+    {
+        "First Name": "Nitin",
+        "Middle Name": "",
+        "Last Name": "Sharma",
+        "Email": "Nitin.sharma@gmail.com",
+        "Phone": "6657888890",
+        "Role": "IOS Developer",
+        "Address": "Ludhiana ,punjab"
+    },
+    {
+        "First Name": "Simran",
+        "Middle Name": "",
+        "Last Name": "Kaur",
+        "Email": "Simran.kaur@gmail.com",
+        "Phone": "98000777889",
+        "Role": "QA Engineer",
+        "Address": "Patiala,Punjab"
+    },
+    {
+        "First Name": "Gunveen",
+        "Middle Name": "",
+        "Last Name": "Kaur",
+        "Email": "Gunveen.kaur@gmail.com",
+        "Phone": "9876584132",
+        "Role": "HR",
+        "Address": "Ludhiana,Punjab"
+    },
+    {
+        "First Name": "Iti",
+        "Middle Name": "",
+        "Last Name": "Jha",
+        "Email": "Itijha@gmail.com",
+        "Phone": "9089012345",
+        "Role": "QA Engineer",
+        "Address": "Bengaluru,Karnataka"
+    },
+    {
+        "First Name": "Shruti",
+        "Middle Name": "",
+        "Last Name": "Garg",
+        "Email": "Shruti.gar@gmail.com",
+        "Phone": "7689054566",
+        "Role": "IOS Developer",
+        "Address": "Pune,Maharashtra"
+    }
+]
