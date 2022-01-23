@@ -5,6 +5,7 @@ fetch("http://127.0.0.1:8000/JSON/Data.json")
     .then((jsonResponse) => jsonResponse.json())
     .then((data) => jsonData = data);
 
+
 // Add event listerner to load button
 LoadButton.addEventListener("click", function () {
     if (LoadButton.innerHTML == "Load Data") {
