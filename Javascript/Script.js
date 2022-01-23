@@ -13,7 +13,6 @@ LoadButton.addEventListener("click", function () {
 })
 
 function loadData() {
-
     // Get tableArea reference defined in Index.html
     var tableArea = document.getElementById('TableArea');
 
