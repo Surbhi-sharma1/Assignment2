@@ -1,0 +1,40 @@
+
+
+body {
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient( 
+        45deg, rgba(253, 253, 253, 0.9), rgba(215, 215, 252, 0.9) );
+}
+table {
+    width: 100%;
+    text-align: center;
+    
+}
+table ,td, th{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th {
+    padding: 10px;
+}
+button {
+    background-color: transparent;
+    padding: 5px;
+}
+.btn-container {
+    text-align: center;
+    margin: 20px;
+}
+
+#load-btn {
+    font-size: 20px;
+}
+
+#Button1 {
+    margin: 5px;
+    padding: 5px;
+    width: 60px;
+}
