@@ -58,9 +58,15 @@ function loadData() {
         editButton.innerHTML = "Edit";
         cell1.appendChild(editButton);
 
-        editButton.addEventListener('click', function () {
-            return editData();
-        })
+        editButton.addEventListener('click', function (event) {
+            if (event.target.innerHTML == "Edit") {
+                event.target.innerHTML = "Save";
+                return editData(event);
+            } else {
+                event.target.innerHTML = "Edit";
+                return saveData(event);
+            }
+        });
 
         // Add delete button
         var cell2 = newRow.insertCell();
@@ -75,11 +81,6 @@ function loadData() {
     }
     // Add table in table area to display content
     tableArea.appendChild(table);
-
-}
-// Function to Edit Data.
-function editData() {
-    console.log('Edit');
 }
 
 // Function to Delete Data.
@@ -88,6 +89,14 @@ function deleteData(selectedElement) {
     rowToDelete.parentNode.removeChild(rowToDelete);
 }
 
+// Function to Edit Data.
+function editData(event) {
+    var tr = event.target.parentNode.parentNode;
+    tr.contentEditable = true;
+}
 
-
-
+// Function to Sava Data
+function saveData(event) {
+    var tr = event.target.parentNode.parentNode;
+    tr.contentEditable = false;
+}
