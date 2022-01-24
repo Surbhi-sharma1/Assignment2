@@ -1,6 +1,7 @@
 
 
 body {
+    background-color: cadetblue;
     margin: 10px;
     font-family: 'Courier New', Courier, monospace;
     background-size: cover;
@@ -10,12 +11,16 @@ body {
 }
 table {
     width: 100%;
+    margin: 40px;
     text-align: center;
+    background-color:white;
     
 }
+
 table ,td, th{
     border: 2px solid black;
     border-collapse: collapse;
+    background:white
 }
 th {
     padding: 10px;
@@ -27,14 +32,21 @@ button {
 .btn-container {
     text-align: center;
     margin: 20px;
+    
 }
 
-#load-btn {
+#LoadButton {
+    margin: 20px;
     font-size: 20px;
+    background-color: paleturquoise;
+    display:inline-block;
+    cursor:pointer; 
+    border-radius :30px;
 }
 
 #Button1 {
     margin: 5px;
     padding: 5px;
     width: 60px;
+    display:inline-block;
 }
