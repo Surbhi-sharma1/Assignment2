@@ -101,7 +101,6 @@ function deleteData(event) {
 function editData(event) {
     var tr = event.target.parentNode.parentNode;
     let indexOfRow = tr.id;
-    console.log(`Index: ${indexOfRow}`);
     let button2 = document.getElementById("button2" + indexOfRow);
     button2.innerHTML = "Cancel";
     tr.contentEditable = true;
