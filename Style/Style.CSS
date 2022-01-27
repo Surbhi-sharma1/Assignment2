@@ -1,30 +1,30 @@
-
-
 body {
     background-color: cadetblue;
     margin: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:cursive;
     background-size: cover;
     background-attachment: fixed;
     background-image: linear-gradient( 
         45deg, rgba(253, 253, 253, 0.9), rgba(215, 215, 252, 0.9) );
 }
 table {
-    width: 100%;
+    width: 90%;
     margin: 40px;
     text-align: center;
     background-color:white;
-    
 }
+table.list{
+    text-align:center auto;
+ }
 
 table ,td, th{
+    color: green;
     border: 2px solid black;
     border-collapse: collapse;
-    background:white
-}
-th {
+    background:white;
     padding: 10px;
 }
+
 button {
     background-color: transparent;
     padding: 5px;
@@ -34,9 +34,8 @@ button {
     margin: 20px;
     
 }
-
 #LoadButton {
-    margin: 20px;
+    margin: 30px; 
     font-size: 20px;
     background-color: paleturquoise;
     display:inline-block;
@@ -47,6 +46,24 @@ button {
 #Button1 {
     margin: 5px;
     padding: 5px;
-    width: 60px;
+    width: 90px;
+    background-color: azure;
     display:inline-block;
+    cursor: pointer;
+}
+.editButton{
+    margin: 5px;
+    padding: 5px;
+    width: 90px;
+    background-color: azure;
+    display:inline-block;
+    cursor: pointer;
+}
+.deleteButton{
+    margin: 5px;
+    padding: 5px;
+    width: 90px;
+    background-color: azure;
+    display:inline-block;
+    cursor: pointer;
 }
